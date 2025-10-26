@@ -1,14 +1,3 @@
-"""
-Extract & transform script
-- Fetches data from https://jsonplaceholder.typicode.com/posts
-- Saves raw JSON and CSV under data/raw/
-- Saves transformed CSV under data/transformed/
-
-Usage:
-    python extract_transform.py
-
-This script is intentionally simple and uses environment-independent public API so you can run it locally.
-"""
 import os
 import json
 from datetime import datetime
