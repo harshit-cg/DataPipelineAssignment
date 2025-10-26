@@ -1,15 +1,3 @@
-"""
-Upload a local file to S3 using boto3.
-Environment variables used (or allow boto3 default chain):
-- AWS_ACCESS_KEY_ID
-- AWS_SECRET_ACCESS_KEY
-- AWS_SESSION_TOKEN (optional)
-
-Usage:
-    python upload_s3.py --file data/transformed/posts_transformed.csv --bucket my-bucket --key path/in/bucket/posts_transformed.csv
-
-This script will use boto3 and expects creds in env or configured profile.
-"""
 import os
 import argparse
 import boto3
