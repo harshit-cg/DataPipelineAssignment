@@ -1,18 +1,3 @@
-"""
-Load transformed CSV into Snowflake and create raw table + views.
-Environment variables required:
-- SNOWFLAKE_USER
-- SNOWFLAKE_PASSWORD
-- SNOWFLAKE_ACCOUNT
-- SNOWFLAKE_WAREHOUSE
-- SNOWFLAKE_DATABASE
-- SNOWFLAKE_SCHEMA
-- SNOWFLAKE_ROLE (optional)
-
-Usage:
-    python snowflake_load.py --file data/transformed/posts_transformed.csv --raw_table RAW_POSTS --transformed_view TRANSFORMED_POSTS_VIEW --final_view FINAL_POSTS_VIEW
-"""
-
 import os
 import argparse
 import pandas as pd
